@@ -292,7 +292,7 @@ blockquote p {
 
 
 @media screen and (min-width: 1366px) {
-  .hero {
+  /* .hero {
     block-size: 350px;
   }
   .header {
@@ -313,5 +313,70 @@ blockquote p {
   h1 {
     font-size: 60px;
     margin-block-start: 64px;
-  }
+  } */
+  @media screen and (min-width: 1400px){
+    .hero{
+        block-size: 350px;
+    }
+    .header{
+        position: sticky;
+        inset-block-start: -45px;
+    }
+    .header-content{
+        position: relative;
+        inset-block-start: 65px;
+        padding-inline: 0;
+    }
+    header{
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline-start: -208px;
+        inline-size: 188px;
+    }
+    h1{
+        font-size: 60px;
+        font-weight: 400;
+        margin-block-start: 64px;
+    }
+    h2{
+        font-size: 32px;
+        font-weight: 700;
+        margin-block-start: 128px;
+        margin-block-end: 40px;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    p{
+        font-weight: 400;
+        margin-block-end: 40px;
+    }
+    blockquote{
+        margin-block-start: 32px;
+        margin-block-end: 64px;
+    }
+    blockquote p{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    pre{
+        font-weight: 400;
+        padding: 40px;
+        margin-block-end: 40px;
+    }
+    .form input{
+        padding-inline: 40px;
+        margin-block-end: 113px;
+    }
+    .form input[type="submit"] {
+        inline-size: 119px;
+        position: relative;
+        margin-inline-start: -45px;
+        padding-inline: 16px;
+    }
+    .title-end{
+        font-size: 32px;
+    }
+}
 }
