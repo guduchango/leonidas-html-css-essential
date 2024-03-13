@@ -9,7 +9,7 @@ git clone https://github.com/guduchango/leonidas-html-css-essential.git
 
 ### Live proyect
 
-[Simple landing page of travel](https://leonidas-html-y-css-essential.edgardoponce.com/)
+[Simple blog example](https://leonidas-html-y-css-essential.edgardoponce.com/)
 
 ### ¿What the project do?
 
